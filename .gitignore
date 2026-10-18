@@ -1,0 +1,25 @@
+# Maven build output
+target/
+
+# Logs
+logs/
+*.log
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Sensitive configuration
+application-local.properties
+application-secret.properties
+# Spring Boot configuration containing credentials
+src/main/resources/application.properties
+src/main/resources/application-dev.properties
+src/main/resources/application-test.properties
+src/main/resources/application-prod.properties
