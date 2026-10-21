@@ -1,0 +1,6 @@
+application-dev.properties
+application.properties.env
+.env
+.env.*
+target/
+logs/
